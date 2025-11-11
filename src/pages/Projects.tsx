@@ -12,8 +12,8 @@ const Projects = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-4xl font-bold mb-8">My Projects</h1>
-          <p className="text-lg mb-12 text-cent">
+          <h1 className="text-4xl font-bold mb-8 bg-gradient-to-b from-yellow-400 to-yellow-600 bg-clip-text text-transparent">My Projects</h1>
+          <p className="text-lg mb-12 text-center text-gray-400">
             Here's a collection of my video editing work. Each project represents my skills in different aspects of video production, 
             from color grading and transitions to storytelling and pacing.
           </p>

@@ -43,7 +43,7 @@ const Feedback = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h1 className="text-4xl font-extrabold text-yellow-400 mb-4">
+          <h1 className="text-4xl font-extrabold mb-4 bg-gradient-to-b from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
             Client Feedback 💬
           </h1>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">

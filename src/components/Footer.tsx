@@ -36,9 +36,9 @@ const Footer = () => {
                 See More
               </h3>
               <ul className="space-y-3">
-                {["Home", "Work", "About", "Contact"].map((item) => (
+                {[ "About", "Contact","Projects"].map((item) => (
                   <li key={item}>
-                    <a href="#" className="text-sm hover:text-yellow-400 transition-colors">
+                    <a href={`/${item.toLocaleLowerCase()}`} className="text-sm hover:text-yellow-400 transition-colors">
                       {item}
                     </a>
                   </li>

@@ -115,7 +115,7 @@ const Home = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            <span className="block text-yellow-400">Yabsra</span>
+            <span className="block bg-gradient-to-b from-yellow-400 to-yellow-600 bg-clip-text text-transparent">Yabsra</span>
             <span className="text-3xl md:text-4xl font-light mt-2 block text-gray-200">
               Creative Video Editor & Storyteller
             </span>
@@ -136,15 +136,25 @@ const Home = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.8 }}
           >
-            <Link to="/projects">
-              <Button
-                type="primary"
-                size="large"
-                className="bg-yellow-500 hover:bg-yellow-600 border-none text-lg  h-12 px-8"
-              >
-               <span className="text-black">View My Work</span> 
-              </Button>
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link to="/projects">
+                <Button
+                  type="primary"
+                  size="large"
+                  className="bg-yellow-500 hover:bg-yellow-600 border-none text-lg h-12 px-8"
+                >
+                  <span className="text-black">View My Work</span>
+                </Button>
+              </Link>
+              <Link to="/contact">
+                <Button
+                  size="large"
+                  className="border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black text-lg h-12 px-8"
+                >
+                  Get In Touch
+                </Button>
+              </Link>
+            </div>
           </motion.div>
         </div>
       </motion.section>
